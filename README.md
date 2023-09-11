@@ -7,6 +7,10 @@ This package provides the components required to integrate a PHP application
 using [Monolog](https://github.com/Seldaek/monolog) with
 [New Relic Logs](https://newrelic.com/products/logs).
 
+## Latest Update @kristijorgji
+
+I forked and am still supporting this package to use latest php >=8.0 and monolog version 3.*.
+
 ## Archival Notice
 
 As of **June, 2023** the **Monolog components to enable New Relic Logs** project is archived. The [New Relic PHP agent](https://github.com/newrelic/newrelic-php-agent) (version 10.3.0 and newer) supports Monolog 2 and Monolog 3 log forwarding automatically and is the recommended way to capture log output from your PHP application.  [Learn more about automatic log forwarding](https://docs.newrelic.com/docs/logs/logs-context/configure-logs-context-php/#automatic-logs-in-context).

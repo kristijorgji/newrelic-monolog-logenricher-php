@@ -16,11 +16,8 @@
 namespace NewRelic\Monolog\Enricher;
 
 use Monolog\Formatter\FormatterInterface;
-use Monolog\Handler\AbstractProcessingHandler;
-use Monolog\Handler\Curl;
 use Monolog\Handler\HandlerInterface;
-use Monolog\Logger;
-use Monolog\Util;
+use Monolog\LogRecord;
 
 class Handler extends AbstractHandler
 {
@@ -29,7 +26,7 @@ class Handler extends AbstractHandler
      *
      * @param array $record
      */
-    protected function write(array $record): void
+    protected function write(LogRecord $record): void
     {
         $this->send($record["formatted"]);
     }

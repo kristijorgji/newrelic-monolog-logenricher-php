@@ -14,7 +14,6 @@
 namespace NewRelic\Monolog\Enricher;
 
 use Monolog\Formatter\JsonFormatter;
-use Monolog\Logger;
 
 /**
  * Formats record as a JSON object with transformations necessary for
@@ -49,7 +48,7 @@ abstract class AbstractFormatter extends JsonFormatter
      * @param int $depth
      * @return mixed
      */
-    protected function normalize($data, $depth = 0)
+    protected function normalize($data, $depth = 0): mixed
     {
         if ($depth == 0) {
             if (isset($data['extra']['newrelic-context'])) {

@@ -11,8 +11,8 @@
     ],
     "abandoned": true,
     "require": {
-        "php": ">=5.3.0",
-        "monolog/monolog": "^2"
+        "php": ">=8.1",
+        "monolog/monolog": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^4",
