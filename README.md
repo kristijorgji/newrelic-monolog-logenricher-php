@@ -1,11 +1,12 @@
-[![Archived header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Archived.png)](https://opensource.newrelic.com/oss-category/#archived)
 # Monolog components to enable New Relic logs
-
-[![Latest Stable Version](https://poser.pugx.org/newrelic/monolog-enricher/version)](https://packagist.org/packages/newrelic/monolog-enricher) [![Latest Unstable Version](https://poser.pugx.org/newrelic/monolog-enricher/v/unstable)](//packagist.org/packages/newrelic/monolog-enricher) [![CircleCI](https://circleci.com/gh/newrelic/newrelic-monolog-logenricher-php.svg?style=svg)](https://circleci.com/gh/newrelic/newrelic-monolog-logenricher-php) [![License](https://poser.pugx.org/newrelic/monolog-enricher/license)](https://packagist.org/packages/newrelic/monolog-enricher)
 
 This package provides the components required to integrate a PHP application
 using [Monolog](https://github.com/Seldaek/monolog) with
 [New Relic Logs](https://newrelic.com/products/logs).
+
+## Latest Update @kristijorgji
+
+I forked and am still supporting this package to use latest php >=8.0 and monolog version 3.*.
 
 ## Archival Notice
 
